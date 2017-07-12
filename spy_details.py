@@ -1,4 +1,5 @@
-loginun="lewis"
+#use this "lewis" and "1234" in user-name and password
+loginun="lewis"                      #variable taken
 loginps="1234"
 def details():
     while 1 == 1:
