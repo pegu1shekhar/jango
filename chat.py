@@ -169,7 +169,9 @@ def msg_check():
                     output_path = raw_input("Path of the output.jpg:")
                     text = Steganography.decode(output_path)                    #decoding message here
                     print "Decoded message :%s" % text
-                    if text == "SOS":  # emergency code message                 #for sos message
+                    if text == None
+                        print "There is no secret message"
+                    elif text == "SOS":  # emergency code message                 #for sos message
                         print "Save our souls"
                     elif text == "save me":                                     #save me message
                         print "Emergency needs"
